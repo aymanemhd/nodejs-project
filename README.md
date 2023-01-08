@@ -5,8 +5,8 @@
 ## les technologie utilise
 
 ## languages :
--javascript
--nosql
+- javascript
+- nosql
 
 ## Frontend 
 - React JS 
