@@ -5,8 +5,7 @@
 ### les technologie utilise
 
 ## Frontend 
-React JS (Frontend library)
-Css (Style the webpages)
+- React JS 
 
 ## Backend
 - Express (Backend Framework)
