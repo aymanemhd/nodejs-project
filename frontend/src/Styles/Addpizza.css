@@ -1,0 +1,22 @@
+.Edit_control {
+  margin: 2rem;
+  width: 100%;
+}
+.form-horizontal {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.edit-title {
+  margin: 1rem 0;
+  text-align: center;
+  color: rgb(111, 109, 109);
+}
+.input-group {
+  width: 10rem;
+}
+.group-prices {
+  display: flex;
+  /* flex-wrap: wrap; */
+}

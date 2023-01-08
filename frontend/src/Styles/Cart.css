@@ -1,0 +1,60 @@
+.cart-header {
+  width: 100%;
+}
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.order-item {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-header {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.cart-left,
+.cart-right {
+  width: 50%;
+  padding: 1rem;
+}
+.cart-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food-image {
+  height: 10rem;
+  width: 14rem;
+  border-radius: 1rem;
+}
+.order-details > .food-name {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.order-details > h6,
+.payment-total {
+  font-size: 1rem;
+  margin: 0.6rem 0;
+}
+.order-details > .food-price > .plus-circle,
+.minus-circle {
+  font-size: 1.5rem;
+  color: grey;
+  cursor: pointer;
+  margin: 0.3rem;
+}
+.Trash {
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+  color: red;
+}
+.payment-header {
+  font-size: 300;
+  font-size: 1.5rem;
+}

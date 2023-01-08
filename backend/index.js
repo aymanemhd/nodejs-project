@@ -1,30 +1,37 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+require("colors");
+const morgan = require("morgan");
+const app = express();
+require("dotenv").config();
+const DB = require("./DB/db");
+// const Data = require("./data");
 
-connect()
-app.use(cors())
-app.post(
-  "/api/webhook",
-  express.json({
-    verify: (req, res, buf) => {
-      req.rawBody = buf.toString()
-    },
-  })
-)
-app.use(express.json())
+//middleware
+app.use(express.json());
+app.use(morgan("dev"));
 
-app.get("/", (req, res) => {
-  res.json({ msg: "Welcome to chawkbazar" })
-})
+//called database
+DB.dbconnection;
 
-app.use("/api", userRoutes)
-app.use("/api", categoryRoutes)
-app.use("/api", productRoutes)
-app.use("/api", paymentRoutes)
-app.use("/api", orderRoutes)
+// Data.importData;
+PORT = process.env.PORT;
 
-const port = env.PORT || 5000
+//api
+app.use("/api/food", require("./router/Foodrouter"));
+app.use("/api/user", require("./router/UserRouter"));
+app.use("/api/orders", require("./router/orderrouter"));
 
-app.listen(port, () => {
-  console.log(`Your server is running at port number: ${port}`)
-})
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/client/build")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+} else {
+  app.get("/", (req, res) => {
+    res.send("<h1>Hello From Node Server vai nodemon</h1>");
+  });
+}
+
+app.listen(PORT, () => {
+  console.log(`server running at port no ${PORT}`.bgGreen.magenta);
+});

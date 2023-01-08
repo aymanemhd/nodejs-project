@@ -1,0 +1,45 @@
+.adminScreen {
+  display: flex;
+}
+.admin-title {
+  color: rgba(0, 0, 0, 0.614);
+  text-align: center;
+  margin: 10px;
+}
+.adminMenu {
+  background-color: rgba(203, 197, 197, 0.713);
+  height: 150vh;
+  width: 19rem;
+}
+.adminMenuItem_header {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  text-align: center;
+  color: rgb(33, 40, 40);
+}
+.adminMenuItem {
+  list-style: none;
+}
+.adminMenuItem > li {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 2rem 2rem 0;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.adminMenuItem > li:hover {
+  background-color: rgb(201, 199, 199);
+  color: black;
+}
+.admin-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.admin-link {
+  color: rgb(62, 62, 62);
+}

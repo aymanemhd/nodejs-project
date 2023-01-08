@@ -1,0 +1,39 @@
+.order_Header {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.orderd_table {
+  width: 80%;
+  margin: 0 auto;
+}
+.table_header {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: rgb(53, 52, 52);
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.table_header > th {
+  padding: 0.2rem;
+}
+.table_body > tr > td {
+  padding: 0.5rem 1.4rem;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  /* text-align: center; */
+  background-color: rgb(223, 220, 220);
+}
+.deliverd {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 1rem;
+  background-color: rgb(155, 154, 154);
+  font-size: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

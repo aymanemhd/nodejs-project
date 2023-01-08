@@ -1,0 +1,28 @@
+.Filter-container {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+.Filter-from {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.filter-select {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+.filter-select > option {
+  text-align: center;
+}
+.searchButton {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0px;
+}
+.search_input {
+  font-size: 1rem;
+}

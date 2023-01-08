@@ -1,0 +1,22 @@
+.table-pizzaData {
+  width: 95%;
+  border: 2px solid black;
+  height: 40vh;
+  text-align: center;
+  margin-top: 1rem;
+}
+.head-pizzaData {
+  height: 2rem;
+  background-color: rgb(117, 119, 119);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+@media (max-width: 600px) {
+  .table-pizzaData {
+    width: 95%;
+  }
+}

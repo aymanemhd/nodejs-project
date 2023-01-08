@@ -1,0 +1,41 @@
+.mainNav_header {
+  height: 2.5rem;
+  display: flex;
+  box-shadow: 0 0 1rem 0 black;
+  /* position: static; */
+  /* margin-top: 3rem; */
+  width: 100%;
+}
+.mainNav_section {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainNav_item {
+  flex: 7;
+  flex-shrink: 1;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.MainLinkNav {
+  text-decoration: none;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+  color: black;
+}
+@media (max-width: 600px) {
+  .mainNav_section {
+    text-align: center;
+  }
+}
+.nav-dropdown {
+  border: none;
+  font-size: 1rem;
+  border-radius: 0px;
+  text-align: center;
+  width: 5rem;
+  text-transform: capitalize;
+}

@@ -1,0 +1,72 @@
+.boxContain {
+  height: 460px;
+  width: 430px;
+  border: 1px solid rgb(22, 22, 22);
+  padding: 2rem 2rem;
+  align-items: center;
+  box-sizing: border-box;
+  /* top: 50%; */
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 30px; */
+  /* background-color: rgb(141, 141, 141); */
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 10px;
+  background: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+input[type="submit"] {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(46, 45, 45);
+  color: white;
+  margin: 0px 10px 0px 10px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+label {
+  margin: 10px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+p {
+  margin-left: 10px;
+}
+.header {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: center;
+}
+img {
+  height: 100px;
+  width: 90px;
+  margin-right: 20px;
+}
+
+h4 {
+  font-size: 17px;
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(15, 2, 73);
+}

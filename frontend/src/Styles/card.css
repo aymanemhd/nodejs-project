@@ -1,0 +1,133 @@
+.card {
+  height: 27rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  width: 23rem;
+  /* background-color: bisque; */
+  padding: 10px;
+}
+
+.image {
+  height: 17rem;
+  width: 100%;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.card-header {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.card-main {
+  height: 8rem;
+  padding: 1rem;
+  display: flex;
+}
+.card-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+card-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.card_headers {
+  font-weight: 300;
+  margin-left: 0.7rem;
+  font-size: 1.2rem;
+}
+.price {
+  margin: 1rem 0 0 0;
+}
+.card-size {
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.1rem;
+  background-color: gray;
+  color: white;
+}
+.btn-margin {
+  margin: 1rem 0 0 5rem;
+}
+/* model css */
+
+.modal {
+  font-size: 12px;
+  background-color: #fcfcfc;
+  border-radius: 1rem;
+  color: rgb(84, 80, 80);
+  margin: 0 auto;
+  display: block;
+  border: 1px solid black;
+  width: 35rem;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 4px solid gainsboro;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.modal > .content > .popup-image {
+  height: 19rem;
+  width: 30rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+.modal > .content > .model-description {
+  font-weight: 300;
+  color: rgb(65, 67, 67);
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.content > .model-description > h6 {
+  font-weight: 600;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.actions > .button {
+  height: 2rem;
+  width: 6rem;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+/* @media (max-width: 900px) {
+  .modal {
+    display: none;
+    cursor: default;
+  }
+} */
