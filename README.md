@@ -9,11 +9,11 @@
 - nosql
 
 ## Frontend 
-- React JS 
+- Reactjs 
 
 ## Backend
-- Express (Backend Framework)
-- Node JS 
+- Expressjs
+
 
 ## Database
 - Mongo db
