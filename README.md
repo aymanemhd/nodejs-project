@@ -4,7 +4,7 @@
 
 ## les technologie utilise
 
-##languages :
+## languages :
 -javascript
 -nosql
 
